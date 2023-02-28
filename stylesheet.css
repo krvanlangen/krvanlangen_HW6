@@ -3,14 +3,15 @@
   }
   
   header {
-    background-color: black;
+    background-color: #32BDC7;
     padding: 25px;
     text-align: center;
-    color: yellow;
+    color: black;
+    font-size: 2.0rem;
   }
   
   nav {
-    background-color: #dffbee;
+    background-color: #8AF3FB;
     margin: 10px;
     padding-bottom: 25px;
     border-bottom: 1px solid black;
@@ -23,12 +24,12 @@
   
   /* unvisited link */
   a:link {
-    color: #22D1E0;
+    color: #1F747A;
   }
   
   /* visited link */
   a:visited {
-    color: #22D1E0;
+    color: #1F747A;
   }
   
   /* mouse over link */
@@ -44,11 +45,11 @@
   }
   
   main {
-    background-color: #dffbee;
+    background-color: #b2fcec;
   }
   
   footer {
-    background-color: #487a64;
+    background-color: #32BDC7;
     padding: 25px;
     text-align: center;
     color: whitesmoke;
@@ -75,3 +76,10 @@
   tr:nth-child(even) {
     background-color: #f2f2f2;
   }
+
+  img {
+    border: 5px solid teal; 
+    padding: 5px; 
+    display: block; 
+    margin: 0 auto;
+}
